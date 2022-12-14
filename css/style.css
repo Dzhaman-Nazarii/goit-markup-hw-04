@@ -18,7 +18,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-  }
+}
 
 h1,
 h2,
@@ -195,6 +195,10 @@ img {
 	padding: 94px 0;
 	color: var(--secondary-color);
 	background: #2F303A;
+	background-image: url('../images/hero_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 	padding: 200px 0;
 }
 
@@ -422,4 +426,30 @@ img {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
+}
+
+.our-customers {
+	padding: 94px 0;
+}
+
+.clients {
+	display: flex;
+	border-radius: 4px;
+	justify-content: space-between;
+}
+
+.clients-item {
+	display: flex;
+	width: 170px;
+	height: 92px;
+	border: 1px solid #AFB1B8;
+	border-radius: 4px;
+	align-items: center;
+	justify-content: center;
+	fill: #AFB1B8;
+}
+
+.clients-item:hover {
+	fill: var(--color-addition);
+	border: 1px solid var(--color-addition);
 }
