@@ -376,6 +376,9 @@ img {
 	text-align: center;
 	padding: 30px 0;
 	text-align: center;
+	background: var(--secondary-color);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .header-person {
@@ -422,6 +425,10 @@ img {
 	padding: 20px 24px;
 }
 
+.portfolio-item:hover {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -434,7 +441,6 @@ img {
 
 .clients {
 	display: flex;
-	border-radius: 4px;
 	justify-content: space-between;
 }
 
@@ -452,4 +458,20 @@ img {
 .clients-item:hover {
 	fill: var(--color-addition);
 	border: 1px solid var(--color-addition);
+}
+
+.features-list-card {
+	justify-content: space-between;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.features-item-card {
+	display: flex;
+	width: 270px;
+	height: 120px;
+	background: var(--color-button);
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
 }
