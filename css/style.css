@@ -542,3 +542,15 @@ img {
 .our-team-socials:hover, .our-team-socials:focus {
 	fill: var(--secondary-color);
 }
+
+.footer-div {
+	display: flex;
+}
+
+.footer-div-first {
+	margin-right: 70px;
+}
+
+.footer-div-second {
+	margin-top: 12px;
+}
