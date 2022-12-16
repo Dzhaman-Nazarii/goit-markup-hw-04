@@ -195,7 +195,7 @@ img {
 
 .contacts-icon {
 	margin-right: 10px;
-	fill: #757575;
+	fill: currentColor;
 }
 
 .business {
